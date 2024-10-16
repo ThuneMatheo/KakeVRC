@@ -1,0 +1,670 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="kiero">
+      <UniqueIdentifier>{c914abae-6128-4a2a-8821-07a38f656930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{3ba57e14-8ac2-485a-b12c-f06690c43d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Overlay">
+      <UniqueIdentifier>{5fb2d2f5-143b-4205-a363-ce8875790715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{c8511d6c-24ec-4583-a359-dcdfc3c9228d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IL2">
+      <UniqueIdentifier>{1f651087-4f5c-485a-a4d3-c7fb85ba53ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IL2\Unity">
+      <UniqueIdentifier>{2bcfd692-e0e8-4f85-b7c8-09f4f455df29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IL2\Utils">
+      <UniqueIdentifier>{759a7551-deca-4a07-8ac2-30590e8e9f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IL2\Unity\API">
+      <UniqueIdentifier>{5ad3941b-a0b0-4e41-a89b-7a66c8946ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IL2\Unity\Structures">
+      <UniqueIdentifier>{c2fbf064-68da-40ea-9bbf-050445e50531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{2ce82dd0-e2e7-43b1-a584-a117d233bc9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{82877186-f996-4811-8c26-7e6fb35b8826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Discord">
+      <UniqueIdentifier>{9c2c3db4-a596-4b71-933b-5d63f16de256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Auth">
+      <UniqueIdentifier>{a7dc06c8-4718-484d-9ff2-018bf1c2afff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IL2\API">
+      <UniqueIdentifier>{2d28f293-e61e-4d03-885d-3eee6539222d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\MenuModules">
+      <UniqueIdentifier>{bc50c159-78d6-4e1b-8de6-9d21551e6941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{2879a501-3462-42a8-9a36-5c046c0aa8aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Window">
+      <UniqueIdentifier>{e9c8b277-83c0-4947-8e28-6be27de2ff92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\FewTagsIntegration">
+      <UniqueIdentifier>{a13d32d1-80fa-48e2-8168-5bf193562f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\KeyAuth">
+      <UniqueIdentifier>{b7acc746-a11a-469f-94da-a4e0d0a29bb3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kiero\minhook\src\buffer.c">
+      <Filter>kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero\minhook\src\hde\hde32.c">
+      <Filter>kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero\minhook\src\hde\hde64.c">
+      <Filter>kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero\minhook\src\hook.c">
+      <Filter>kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero\kiero.cpp">
+      <Filter>kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="kiero\minhook\src\trampoline.c">
+      <Filter>kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vec2.cpp">
+      <Filter>Header Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="StringH.cpp">
+      <Filter>Header Files\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="imgi_helper.cpp">
+      <Filter>Header Files\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorH.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileH.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MH.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Set.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetManager.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeH.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_custom.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ExploitsLogging.cpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClCompile>
+    <ClCompile Include="Marker.cpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Exploits.cpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerList.cpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectList.cpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClCompile>
+    <ClCompile Include="UdonList.cpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalSettings.cpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClCompile>
+    <ClCompile Include="ExploitsAnti.cpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="FewTags.cpp">
+      <Filter>Modules\FewTagsIntegration</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleManager.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyAuth.cpp">
+      <Filter>Modules\KeyAuth</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordHandler.cpp">
+      <Filter>Modules\Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtectMeDaddy.cpp">
+      <Filter>Header Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Proxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kiero\minhook\src\buffer.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\hde\hde32.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\hde\hde64.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\kiero.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\include\MinHook.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\hde\pstdint.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\hde\table32.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\hde\table64.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="kiero\minhook\src\trampoline.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering.hpp">
+      <Filter>Header Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="vec.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Lists.hpp">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui_notify.h">
+      <Filter>Header Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="font_awesome_5.h">
+      <Filter>Header Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="fa_solid_900.h">
+      <Filter>Header Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="tahoma.h">
+      <Filter>Header Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="PaternScan.hpp">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="lazyimporter.h">
+      <Filter>Header Files\IL2</Filter>
+    </ClInclude>
+    <ClInclude Include="Spoof.hpp">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="spoof.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Mainloop.hpp">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountManager.hpp">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="save.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSDK.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SkStr.h">
+      <Filter>Header Files\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="color.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.hpp">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Unity\Defines.hpp">
+      <Filter>Header Files\IL2\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Unity\Obfuscators.hpp">
+      <Filter>Header Files\IL2\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Unity\API\Camera.hpp">
+      <Filter>Header Files\IL2\Unity\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Unity\API\Component.hpp">
+      <Filter>Header Files\IL2\Unity\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Unity\API\GameObject.hpp">
+      <Filter>Header Files\IL2\Unity\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Unity\API\LayerMask.hpp">
+      <Filter>Header Files\IL2\Unity\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Unity\API\Object.hpp">
+      <Filter>Header Files\IL2\Unity\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Unity\API\Rigidbody.hpp">
+      <Filter>Header Files\IL2\Unity\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Unity\API\Transform.hpp">
+      <Filter>Header Files\IL2\Unity\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Unity\Structures\Engine.hpp">
+      <Filter>Header Files\IL2\Unity\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Unity\Structures\il2cpp.hpp">
+      <Filter>Header Files\IL2\Unity\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Unity\Structures\il2cppArray.hpp">
+      <Filter>Header Files\IL2\Unity\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Unity\Structures\il2cppDictionary.hpp">
+      <Filter>Header Files\IL2\Unity\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Unity\Structures\System_String.hpp">
+      <Filter>Header Files\IL2\Unity\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Utils\Hash.hpp">
+      <Filter>Header Files\IL2\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Utils\Helper.hpp">
+      <Filter>Header Files\IL2\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Utils\VTable.hpp">
+      <Filter>Header Files\IL2\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Data.hpp">
+      <Filter>Header Files\IL2</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\Defines.hpp">
+      <Filter>Header Files\IL2</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\IL2CPP_Resolver.hpp">
+      <Filter>Header Files\IL2</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\SystemTypeCache.hpp">
+      <Filter>Header Files\IL2</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\API\Callback.hpp">
+      <Filter>Header Files\IL2\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\API\Class.hpp">
+      <Filter>Header Files\IL2\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\API\Domain.hpp">
+      <Filter>Header Files\IL2\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\API\ResolveCall.hpp">
+      <Filter>Header Files\IL2\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\API\String.hpp">
+      <Filter>Header Files\IL2\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Il2cpp_Resolver\API\Thread.hpp">
+      <Filter>Header Files\IL2\API</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_custom.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_helper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetManager.hpp">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.hpp">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Set.hpp">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2H.hpp">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="MH.hpp">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\Window\Clipboard.hpp">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\Window\Context.hpp">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\Window\ContextSettings.hpp">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\Window\Cursor.hpp">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\Window\Event.hpp">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\Window\Export.hpp">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\Window\GlResource.hpp">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\Window\Joystick.hpp">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\Window\Keyboard.hpp">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\Window\Mouse.hpp">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\Window\Sensor.hpp">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\Window\Touch.hpp">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\Window\VideoMode.hpp">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\Window\Window.hpp">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\Window\WindowHandle.hpp">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\Window\WindowStyle.hpp">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\Clock.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\Err.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\Export.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\FileInputStream.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\InputStream.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\Lock.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\MemoryInputStream.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\Mutex.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\NativeActivity.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\NonCopyable.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\Sleep.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\String.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\Thread.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\ThreadLocal.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\ThreadLocalPtr.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\Time.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\Utf.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\Vector2.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\SFML\System\Vector3.hpp">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorH.hpp">
+      <Filter>Header Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="StringH.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Module.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.hpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerList.hpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.hpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClInclude>
+    <ClInclude Include="Exploits.hpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.hpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClInclude>
+    <ClInclude Include="ExploitsLogging.hpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClInclude>
+    <ClInclude Include="Marker.hpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.hpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthUtils.hpp">
+      <Filter>Header Files\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth.hpp">
+      <Filter>Header Files\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="UdonList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalSettings.hpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClInclude>
+    <ClInclude Include="ExploitsAnti.hpp">
+      <Filter>Modules\MenuModules</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.hpp">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="FewTags.h">
+      <Filter>Modules\FewTagsIntegration</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleManager.hpp">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAuth.h">
+      <Filter>Modules\KeyAuth</Filter>
+    </ClInclude>
+    <ClInclude Include="discord_register.h">
+      <Filter>Modules\Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord_rpc.h">
+      <Filter>Modules\Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordHandler.h">
+      <Filter>Modules\Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="address.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="syscall_direct.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="undocumented.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kiero\minhook\dll_resources\MinHook.def">
+      <Filter>kiero</Filter>
+    </None>
+    <None Include="imgui\SFML\System\String.inl">
+      <Filter>Header Files\System</Filter>
+    </None>
+    <None Include="imgui\SFML\System\Thread.inl">
+      <Filter>Header Files\System</Filter>
+    </None>
+    <None Include="imgui\SFML\System\ThreadLocalPtr.inl">
+      <Filter>Header Files\System</Filter>
+    </None>
+    <None Include="imgui\SFML\System\Utf.inl">
+      <Filter>Header Files\System</Filter>
+    </None>
+    <None Include="imgui\SFML\System\Vector2.inl">
+      <Filter>Header Files\System</Filter>
+    </None>
+    <None Include="imgui\SFML\System\Vector3.inl">
+      <Filter>Header Files\System</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="spoof.asm">
+      <Filter>Header Files\Utils</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
