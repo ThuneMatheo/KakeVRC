@@ -3,7 +3,7 @@
 First i'm not the creator of this entiere code i just want to archive it.
 
 Have fun fixing it :)
-
+<img width="" height="" src="https://github.com/ThuneMatheo/KakeVRC/blob/main/Banner.png?raw=true">
 - Features
 
 Movement
